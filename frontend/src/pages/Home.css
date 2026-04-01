@@ -1,0 +1,81 @@
+.home-container {
+  min-height: 100vh;
+  background: #f4f8f8;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #1f7c82;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.navbar span {
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.hero-left h1 {
+  font-size: 40px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background: #1f7c82;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button.outline {
+  background: white;
+  color: #1f7c82;
+  border: 2px solid #1f7c82;
+}
+
+/* IMAGE */
+.hero-right img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+/* 🔥 CARDS FIX */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  width: 220px;
+  background: rgb(5, 82, 206);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.card p {
+  color: gray;
+}

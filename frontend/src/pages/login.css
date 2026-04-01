@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Background */
+  .login-container {
+    height: 100vh;
+    background: linear-gradient(135deg, #dfe9f3, #cfd9df);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Card */
+  .login-card {
+    background: #fff;
+    padding: 30px;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  /* Icon */
+  .icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Title */
+  .login-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Inputs */
+  .login-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Forgot */
+  .forgot {
+    text-align: right;
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Button */
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(90deg, #0f766e, #0ea5a4);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    opacity: 0.9;
+  }
